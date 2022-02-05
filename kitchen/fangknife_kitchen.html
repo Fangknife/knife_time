@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<style>
+body {
+  background-image: url("r2_background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 1536px 864px;
+}
+
+.Blender {
+    height:397px;
+    width:213px;
+    background: url('r2_blender_off2.png');
+    margin: 5px; 
+    position: absolute;
+    left: 800px;
+    top: 150px;
+}
+.Blender:hover  {
+    height:460px;
+    width:411px;
+    cursor:pointer; 
+    background:url('r2_blender_on2.gif');
+    margin: 5px; 
+    position: absolute;
+    left: 690px;
+    top: 80px;}
+    
+.windowpos { 
+    position: absolute;
+    left: 50px;
+    top: 0px;
+}
+.cabinetpos { 
+    position: absolute;
+    left: 1005px;
+    top: 620px;
+}
+
+
+</style>
+</head>
+<body>
+
+    
+<div class="Blender"> </div>
+<div class="Blender.hover"> 
+<audio src="blendernoise2.mp3" autoplay></audio>
+</div>
+
+
+    
+
+
+<!-- window -->
+
+<div>
+    <div class="windowpos">  
+    <img id="image" src="" />
+    </div>
+    </div>
+    
+    
+    <div class="windowpos">
+    <div>
+    <input type="image" onclick="show()" id="btnID2"
+    src="r2_window.jpg"  alt="Submit"  />
+    </div>
+    </div>
+    
+    
+    <script>
+    function show() {
+    let image = document.getElementById("image");
+    image.src = "r2_window.gif"
+    document.getElementById("btnID2")
+    .style.display = "none";
+    myTimeout = setTimeout(thonksound, 50);
+    function thonksound() {
+    var music = new Audio('thonk2.mp3');
+    music.play();
+    }    
+    }
+    </script>
+
+
+
+
+
+
+<!-- cabinet below -->
+
+<div>
+    <div class="cabinetpos">  
+    <img id="image2" src="" />
+    </div>
+    </div>
+    
+    
+    <div class="cabinetpos">
+    <div>
+    <input type="image" onclick="show2()" onclick="show3()"id="btnID3"
+    src="r2_cabinet.jpg"  alt="Submit"  />
+    </div>
+    </div>
+    
+    
+    <script>
+    function show2() {
+    let image = document.getElementById("image2");
+    image.src = "r2_cabinet3.gif"
+    document.getElementById("btnID3")
+    .style.visibility = "hidden";
+    myTimeout = setTimeout(myGreeting, 4000);
+    function myGreeting() {
+    document.getElementById("btnID3").style.visibility = "visible"}
+
+    myTimeout = setTimeout(cabinetsound, 1500);
+    function cabinetsound() {
+    var music = new Audio('scraping3.mp3');
+    music.play();}
+
+    myTimeout = setTimeout(cabinetsound2, 3250);
+    function cabinetsound2() {
+    var music = new Audio('thonk2.mp3');
+    music.play();
+    }  
+    }
+    </script>
+    
+    
+
+</body>
+</html>

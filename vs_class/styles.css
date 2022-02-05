@@ -1,0 +1,23 @@
+body {
+    background-color: red;
+}
+
+p {
+    font-family: diediedie;
+    color: yellow;
+    font-size: 150px;
+}
+ul{
+font-family: speedattack;
+color:black;
+font-size: 40px;
+}
+@font-face {
+    font-family: 'diediedie';
+    src: url('d:\\vs\\vs_class\\diediedie\\diediedie.ttf');
+  }
+
+@font-face {
+    font-family: 'speedattack';
+    src: url('d:\\vs\\vs_class\\speed-attack-demo\\speedattackdemoregular.ttf');
+  }

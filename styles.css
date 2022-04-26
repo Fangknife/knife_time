@@ -1,0 +1,95 @@
+body {
+    background-color: red;
+}
+.die {
+    font-family: diediedie;
+    color: black;
+    font-size: 50px;
+}
+.sword {
+  font-family: barbarian;
+  color: black;
+  font-size: 50px;
+}
+.speed{
+font-family: speedattack;
+color:black;
+font-size: 50px;
+}
+.heartless{
+  font-family: heartless;
+  color:black;
+  font-size: 100px;
+}
+.swamp_witch{
+  font-family: swamp_witch;
+  color:black;
+  font-size: 100px;
+}
+.run_2{
+  font-family: run_2;
+  color:black;
+  font-size: 100px;
+}
+.horrorcore{
+  font-family: horrorcore;
+  color:black;
+  font-size: 100px;
+}
+.alligators{
+  font-family: alligators;
+  color:black;
+  font-size: 100px;
+}
+.knife{
+  font-family: knife;
+  color:black;
+  font-size: 100px;
+}
+.lords{
+  font-family: lords;
+  color:black;
+  font-size: 100px;
+}
+@font-face {
+    font-family: 'diediedie';
+    src: url('diediedie\\diediedie.ttf');
+  }
+
+@font-face {
+    font-family: 'speedattack';
+    src: url('speed-attack-demo\\speedattackdemoregular.ttf');
+  }
+
+@font-face {
+    font-family: 'barbarian';
+    src: url('Barbarian.ttf');
+  }
+  @font-face {
+    font-family: 'heartless';
+    src: url('heartless/Heartless.ttf');
+  }
+  @font-face {
+    font-family: 'swamp_witch';
+    src: url('swamp_witch/Swamp\ Witch.ttf');
+  }
+  @font-face {
+    font-family: 'run_2';
+    src: url('run_2/Run!\ Demo.otf');
+  }
+  @font-face {
+    font-family: 'horrorcore';
+    src: url('horrorcore/horrorCORE.ttf');
+  }
+  @font-face {
+    font-family: 'alligators';
+    src: url('cold_night_for_alligators/coldnightforalligators.ttf');
+  }
+  @font-face {
+    font-family: 'knife';
+    src: url('knife/Knife.ttf');
+  }
+  @font-face {
+    font-family: 'lords';
+    src: url('mb_lords_of_evil/MB-LordsOfEvil.ttf');
+  }
